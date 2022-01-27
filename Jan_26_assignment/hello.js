@@ -1,11 +1,20 @@
-var char = prompt("enter any character");
 
-if(char == 'a' || char == 'A' || char == 'e'|| char == 'E' || char =='i' || char =='I' || char == 'o' || char
-=='O' ){
-	alert("charecter is VOVEL");
+var n1= prompt("enter n1");
+var n2= prompt("enter n2");
+var n3= prompt("enter n3");
+
+n1 = parseInt(n1);
+n2 = parseInt(n2);
+n3 = parseInt(n3);
+
+ console.log(typeof n1 );
+
+if (n1<n2 && n1<n3) {
+	alert("n1 is minimun");
 }
-else
+else if (n2<n1 && n2<n3) {
+	alert("n2 is minimun");
+} else
 {
-	alert("character  is CONSONANT");
-
+alert("n3 is minimun");
 }
