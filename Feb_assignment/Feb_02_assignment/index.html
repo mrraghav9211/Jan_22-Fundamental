@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+	<title>Simple HTML Page</title>
+	<style>
+		*{
+			margin: 0;
+			padding: 0;
+		}
+		nav{
+
+			height: 80px;
+			background: greenyellow;
+			width: 100%;
+
+		}
+		.logo{
+			
+			line-height: 70px;
+			margin-left: 50px;
+			font-size: 30px;
+		}
+		ul{
+			position: relative;
+			float: right;
+			margin-right: 40px;
+			display: inline-block;
+			
+		}
+		ul a{
+			text-decoration: none;
+			margin-right: 40px;
+			font-size: 20px;
+			text-transform: uppercase;
+			border-radius: 3px;
+			padding: 8px;
+
+		}
+		a.active,a:hover{
+			background: #32CD32;
+			transition: .5s;
+		}
+		.checkbtn{
+			float: right;
+			font-size: 30px;
+			margin-right: 30px;
+			line-height: 70px;
+			color: white;
+			cursor: pointer;
+			display: none;
+		}
+		#check{
+			display: none;
+		}
+		@media(max-width: 958px){
+			.checkbtn{
+				display: block;
+			}
+			ul{
+				width: 100%;
+				height: 100vh;
+				position: fixed;
+				top: 80px;
+				left: -100%;
+				text-align: center;
+				transition: all .5s;
+
+			}
+			
+	
+			ul a{
+				display: block;
+				margin: 10px 0;
+				padding: 20px;
+				
+			}
+			#check:checked ~ ul{
+		  left: 0;
+	}
+
+		}
+
+	</style>
+</head>
+<body>
+	<nav>
+		<input type="checkbox" id="check">
+		<label for="check" class="checkbtn">
+			<i class="fas fa-bars"></i>
+		</label>
+		<h1  class="logo"> RaghavX</h1>
+		<ul>
+			<a href="" class="active">Home</a>
+			<a href="">About</a>
+			<a href="">Gallery</a>
+			<a href="">Blog</a>
+			<a href="">Content</a>
+			
+		</ul>
+
+	</nav>
+	<!-- <table border="1">
+		<tr>
+			<th>I have learned</th>
+		</tr>
+		<tr>
+			<td>anchor</td>
+			<td>tag</td>
+			<td>img tag</td>
+			<td>heading tag</td>
+
+		</tr>
+		<tr>
+            <td>paragraph tag</td>
+			<td>meta tag</td>
+			<td>ol and ul list</td>
+		</tr>
+	</table>
+	<form>
+		<ul>
+			<li>Name : Rajani Kant Raghav</li>
+			<li> DOB : 20 july 2000</li>
+			<li>Siyana Bulandshahr UP</li>
+		</ul>
+
+		<ol>
+			<li>Java</li>
+			<li>Javascript</li>
+			<li>c++</li>
+			<li>c</li>
+			<li>php</li>
+		</ol>
+	</form>
+	<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum sed molestiae eaque doloribus error accusantium facilis nisi nobis necessitatibus, quis at omnis dolores magni accusamus illum sit ut veritatis repellat quibusdam, fugit illo cum qui optio nostrum! Reprehenderit in, ex dolor nemo consequatur sapiente necessitatibus culpa alias, delectus repellat quam nobis excepturi vitae unde perspiciatis? Cum, possimus dolores quo ut sed fugit rem exercitationem unde provident assumenda deleniti nesciunt minima recusandae nulla. Harum est iusto nostrum et expedita neque facilis deserunt minima facere dolor, libero quasi aperiam numquam laudantium maxime tenetur quisquam cum optio, illum nulla sit vel commodi sapiente!
+
+</p>
+
+<a style="border: 1px solid darkred ;" href="https://www.youtube.com/watch?v=nXKUJipczn0" target="blank">Learn more on Youtube</a> -->
+</body>
+</html>
+ 		
+		
