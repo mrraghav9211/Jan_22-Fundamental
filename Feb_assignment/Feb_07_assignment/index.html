@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<style>
+		form{
+			background: lightblue;
+			width: 80%;
+			margin: auto;
+
+
+		}
+		h1{
+			text-align: center;
+		}
+		#name{
+			margin-left: -5px;
+		}
+		input{
+			padding: 10px;
+			font-size: 15px;
+		}
+		
+       textarea{
+       	resize: none;
+       	width: 35%;
+       	height: 50px;
+
+       }
+	</style>
+</head>
+<body>
+	<div>
+		<form >
+			<h1>Registration Form</h1>
+			<input type="text" name="clsname" placeholder="Enter Class Name" minlength="2" size="50" required />
+			<input type="text"  name="fname" minlength="1" placeholder="First Name" required>
+			<input type="text" id="name" name="mname" placeholder="Middle Name" />
+			<input type="text" id="name" name="lname" placeholder="Last Name" /><br><br>
+			<input type="date" name="dob" placeholder="Date of Birth" required />
+		    <input type="text" name="classtyp" size="50" placeholder="Previous Class Study">
+		    <input type="text" name="stream" placeholder="Enter Stream" size="50" required><br><br>
+		    <input type="text" name="medium" size="50" placeholder="Medium" required>
+		    <input type="text" name="mothertougue" size="50" placeholder="Mother Tongue" required><br><br>
+		    <input type="email" name="email" size="50" placeholder="Enter Email" pattern=".+@gmail\.com" required>
+		    <input type="number" name="phn"  placeholder="Mobile No" max="10" min="10" />
+		    <input type="password" name="psw" size="50" minlength="5" placeholder="Enter Password" required /><br><br>
+		    <input type="reset" name="reset"  placeholder="Reset" required/>
+		    <input type="submit" name="submit" placeholder="Submit" required/>
+
+		    
+
+
+		</form>
+	</div>
+
+</body>
+</html>
