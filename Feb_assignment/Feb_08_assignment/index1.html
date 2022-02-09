@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<title></title>
+<style>
+	*{
+		margin: 0;
+		padding: 0;
+		background: grey;
+	}
+	form{
+		
+		width: 50%;
+		margin: auto;
+	}
+	input[type=text]{
+		padding: 12px;
+		background: white;
+		font-size: 15px;
+		border-radius: 5px;
+		width: 80%;
+		border: none;
+		border-bottom: 5px solid blueviolet;
+	}
+	input[type=submit]{
+       padding: 12px;
+       width:80px;
+       background: blueviolet;
+	}
+	li{
+		text-decoration: none;
+		list-style-type: none;
+		width:100%;
+		
+		font-size: 20px;
+		padding: 10px;
+	}
+	li i{
+       float: right;
+       margin-right: 40px;
+       color: red;
+       
+       width: 30px;
+       text-align: center;
+       height: 30px;
+
+	}
+	ul{
+
+		background: blueviolet;
+	}
+	h1{
+		text-align: center;
+		color: seagreen;
+	}
+</style>
+</head>
+<body>
+	<form>
+		<h1>Todo List +</h1>
+		<input type="text" placeholder="Add a todo..." name="todo" />
+		<input type="submit" name="submit" value="Add">
+		<br><br>
+		<ul>
+			<li> React js<i class="fa-solid fa-trash-can"></i></li>
+			<li> Javascript<i class="fa-solid fa-trash-can"></i></li>
+			<li> Html<i class="fa-solid fa-trash-can"></i></li>
+			<li> Css<i class="fa-solid fa-trash-can"></i></li>
+			<li> Node js<i class="fa-solid fa-trash-can"></i></li>
+			<li> MongoDB<i class="fa-solid fa-trash-can"></i></li>
+
+		</ul>
+
+
+	</form>
+<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</body>
+</html>
