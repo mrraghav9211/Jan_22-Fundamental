@@ -1,0 +1,88 @@
+*{
+	padding: 0;
+	margin: 0;
+
+}
+body{
+	background: whitesmoke;
+}
+h1{
+	font-size: 60px;
+	color: blueviolet;
+	font-family: cursive;
+	height: 150px;
+	text-align: center;
+}
+nav{
+	height: 33px;
+	width: 80%;
+	background: white;
+	margin: auto;
+	margin-bottom: 10px;
+}
+ul{
+
+}
+nav ul li{
+	display: inline-block;
+	background: antiquewhite;
+	border-radius: 10px;
+	margin-top: px;
+	padding: 6px;
+	cursor: pointer;
+
+}
+.photo-card{
+
+	width: 280px;
+	height: 250px;
+	background-color: white;
+	box-shadow: 0 27px 55px 0 rgba(93, 92, 94, 0.3),
+                        0 17px 17px 0 rgba(106, 105, 107, 0.15);
+}
+.photo-card img{
+	width: 250px;
+	height: 180px;
+	margin-left: 15px;
+	margin-top: 15px;
+}
+.photo-card h3{
+	margin-left: 15px;
+	color: blueviolet;
+} 
+.photo-card p{
+   margin-left: 15px;
+   color: gray;
+}
+
+.container{
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;	
+	justify-content: space-evenly;
+	gap: 5px;
+}
+   span{
+	padding: 5px 8px 5px 8px;
+	background: white;
+	margin-left: 10px;
+	box-shadow: 0 27px 55px 0 rgba(93, 92, 94, 0.3),
+                        0 17px 17px 0 rgba(106, 105, 107, 0.15);
+                        cursor: pointer;
+	
+}
+.pages{
+	width: 20%;
+	margin: auto;
+	margin-top: 30px;
+}
+@media only screen and (max-width: 1138px) {
+  .pages{
+  width: 40%;
+  }
+}
+@media only screen and (max-width: 666px) {
+  .pages{
+  width: 60%;
+  }
+}
