@@ -1,0 +1,47 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	background: linear-gradient(to left, #00ccff 9%, #0000ff 100%);
+}
+h3{
+	text-align: center;
+	font-size: 40px;
+	color: white;
+}
+.card1{
+	width: 50%;
+    float: left;
+    margin-left: 150px;
+}
+.card2{
+	width: 30%;
+	
+	float: right;
+	margin-right: 110px;
+}
+h1{
+	font-size: 150px;
+	margin-left: 45%;
+}
+h2{
+	text-align: center;
+	color: white;
+	padding-top: 30px;
+}
+span{
+	margin-left: 42%;
+	font-size: 20px;
+
+}
+img{
+	margin-top: 20px;
+	width: 150px;
+	height: 150px;
+	cursor: pointer;
+
+}
+.image{
+	margin-left: 100px;
+}
